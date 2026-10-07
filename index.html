@@ -1,15 +1,240 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RadicarEntreMujeres</title>
+    <title>Psic. Brianda Isaen Estrada Vargas | Terapia de Esquemas & Acompañamiento</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="contenedor-h1">
-        <h1>Bienvenida a tu espacio</h1>
-    </div>
-    <script src="script.js"></script>
+
+    <!-- Elementos decorativos de fondo con tonos inspirados en el logo -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navegación -->
+    <header class="navbar">
+        <div class="logo-container">
+            <!-- Representación en SVG del Logo 'Radican entre mujeres' -->
+            <svg class="logo-icon" viewBox="0 0 100 100" width="40" height="40">
+                <circle cx="50" cy="50" r="48" fill="#fcf0ec" stroke="#e3b8a3" stroke-width="2"/>
+                <!-- Tronco del árbol / Psique -->
+                <path d="M50 85 C50 65 42 60 40 50 C38 40 45 35 40 30 M50 85 C50 65 58 60 60 50 C62 40 55 35 60 30 M50 85 L50 40" stroke="#d49a83" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+                <!-- Raíces -->
+                <path d="M50 85 C42 90 30 92 22 90 M50 85 C45 92 38 96 30 96 M50 85 C58 90 70 92 78 90 M50 85 C55 92 62 96 70 96" stroke="#d49a83" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <!-- Flores de Cerezo / Ramas -->
+                <circle cx="40" cy="30" r="4" fill="#e8a8b8"/>
+                <circle cx="60" cy="30" r="4" fill="#e8a8b8"/>
+                <circle cx="50" cy="22" r="5" fill="#f0b6c4"/>
+                <circle cx="32" cy="38" r="3.5" fill="#e8a8b8"/>
+                <circle cx="68" cy="38" r="3.5" fill="#e8a8b8"/>
+                <circle cx="50" cy="35" r="4" fill="#f7cb3"/>
+                <!-- Hojitas verdes -->
+                <path d="M36 34 Q30 30 38 26 Z" fill="#608366"/>
+                <path d="M64 34 Q70 30 62 26 Z" fill="#608366"/>
+            </svg>
+            <div class="logo-text">
+                <span class="brand-title">Radicar Entre Mujeres</span>
+                <span class="brand-sub">Psic. Brianda Isaen Estrada</span>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#servicios">Especialidades</a></li>
+                <li><a href="#enfoque">Metodología</a></li>
+                <li><a href="#testimonios">Experiencias</a></li>
+            </ul>
+        </nav>
+        <a href="https://wa.me/5563242437?text=Hola,%20quisiera%20agendar%20una%20consulta%20con%20la%20Psic.%20Brianda%20Estrada" target="_blank" class="btn-whatsapp-nav">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793 0-.853.448-1.273.607-1.446.159-.173.346-.217.462-.217.116 0 .231.002.332.007.108.005.254-.041.397.303.145.346.492 1.2.535 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.303c-.087.101-.182.211-.078.389.104.179.465.767.998 1.242.686.612 1.264.801 1.443.889.179.088.283.073.389-.044.106-.117.452-.528.572-.708.12-.18.239-.151.403-.09.164.061 1.04.491 1.218.579.179.088.298.131.342.203.043.073.043.419-.101.824z"/></svg>
+            <span>Agendar Cita</span>
+        </a>
+    </header>
+
+    <!-- Sección Hero / Inicio -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <span class="badge">Psicología Clínica & Terapia de Esquemas</span>
+            <h1>Regresa a tu centro desde el <span>buentrato y la ternura</span></h1>
+            <p>Espacio psicoterapéutico especializado en acompañar a mujeres adultas a sanar patrones, comprender sus emociones y construir una relación respetuosa y amorosa consigo mismas.</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/5563242437?text=Hola%20Brianda,%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20tus%20consultas" target="_blank" class="btn-primary">
+                    <span>Contactar por WhatsApp</span>
+                    <div class="btn-shine"></div>
+                </a>
+                <a href="#sobre-mi" class="btn-secondary">Conoce mi enfoque</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-num">UNAM</span>
+                    <span class="stat-desc">Lic. en Psicología</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">IMTE</span>
+                    <span class="stat-desc">Especialista en Esquemas</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">100%</span>
+                    <span class="stat-desc">Enfoque Humanizado</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <div class="image-frame">
+                <!-- Imagen de referencia para la psicoterapeuta -->
+                <img src="D:\Usuarios\bsoria\OneDrive - lacomer.com.mx\Escritorio\pagina-web\imagenes\logo.jpeg" alt="Psic. Brianda Isaen Estrada Vargas">
+            </div>
+            <div class="floating-card card-1">
+                <div class="icon">🌸</div>
+                <div>
+                    <p class="title">Modalidad Virtual</p>
+                    <p class="subtitle">Atención a mujeres adultas</p>
+                </div>
+            </div>
+            <div class="floating-card card-2">
+                <div class="icon">🌿</div>
+                <div>
+                    <p class="title">Perspectiva Feminista</p>
+                    <p class="subtitle">Acompañamiento seguro</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="https://static.wixstatic.com/media/085be9_4d2d5fed9f0e4c848e1ca70259fffa19~mv2.jpg/v1/fill/w_227,h_295,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-empty-state.jpg" alt="Espacio de Psicoterapia">
+                <div class="experience-badge">
+                    <span>Cédula Profesional</span>
+                    <strong>11502967</strong>
+                </div>
+            </div>
+            <div class="about-text">
+                <h2>Hola, soy la <span>Psic. Brianda Isaen Estrada Vargas</span></h2>
+                <p class="lead">Licenciada en Psicología por la UNAM (FES Iztacala) y Especialista en Terapia de Esquema por el Instituto Mexicano de Terapia de Esquemas (IMTE).</p>
+                <p>Soy una mujer mexicana, psicóloga y feminista, amante de la naturaleza y el equilibrio. Mi vocación está dedicada al trabajo por y para las mujeres, brindando un acompañamiento empático desde el buentrato y la ternura para guiarlas a regresar a su centro.</p>
+                <ul class="features-list">
+                    <li><i>✓</i> Licenciada en Psicología — FES Iztacala, UNAM</li>
+                    <li><i>✓</i> Especialidad en Terapia de Esquemas — IMTE</li>
+                    <li><i>✓</i> Diplomada en Terapia Cognitivo Conductual — IMPCC</li>
+                    <li><i>✓</i> Gestora del proyecto <em>Abrazarte</em> y colaboradora en Psicovioleta</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Especialidades -->
+    <section id="servicios" class="services">
+        <div class="section-header">
+            <h2>Especialidades <span>Terapéuticas</span></h2>
+            <p>Herramientas y acompañamiento para tu salud mental desde un espacio humano y libre de juicio.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🧩</div>
+                <h3>Terapia de Esquemas</h3>
+                <p>Identifica y transforma patrones emocionales profundos y necesidades infantiles no cubiertas para sanar el presente.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💡</div>
+                <h3>Terapia Cognitivo-Conductual</h3>
+                <p>Reestructuración de pensamientos limitantes, manejo del estrés y herramientas prácticas cotidianas.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🌸</div>
+                <h3>Acompañamiento a Mujeres</h3>
+                <p>Espacio de contención amorosa para procesos de autoconocimiento, fortalecimiento emocional y límites sanos.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🌿</div>
+                <h3>Psicoeducación y Buentrato</h3>
+                <p>Aprende a relacionarte con tus emociones desde la ternura, reduciendo la autoexigencia y el juicio.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Metodología / Enfoque -->
+    <section id="enfoque" class="methodology">
+        <div class="section-header">
+            <h2>¿Cómo es el <span>proceso terapéutico?</span></h2>
+            <p>Un camino guiado hacia el autodescubrimiento y la regulación emocional.</p>
+        </div>
+        <div class="steps-grid">
+            <div class="step-card">
+                <div class="step-num">01</div>
+                <h3>Contacto Inicial</h3>
+                <p>Coordinamos tu sesión a través de WhatsApp para resolver tus dudas y agendar tu horario en modalidad virtual.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-num">02</div>
+                <h3>Valoración de Esquemas</h3>
+                <p>Exploramos tus necesidades emocionales, modos de afrontamiento e historia de vida sin juzgarte.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-num">03</div>
+                <h3>Crecimiento y Sanación</h3>
+                <p>Desarrollamos herramientas prácticas para sanar heridas, establecer límites y vivir en mayor serenidad.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Testimonios -->
+    <section id="testimonios" class="testimonials">
+        <div class="section-header">
+            <h2>Experiencias de <span>acompañamiento</span></h2>
+            <p>Lo que expresan las mujeres que han formado parte de este espacio.</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Trabajar la Terapia de Esquemas con Brianda me permitió entender por qué reaccionaba de ciertas formas. Su empatía y ternura hacen que te sientas segura."</p>
+                <div class="author">— Fernanda G.</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Un espacio verdaderamente seguro. Aprendí a tratarme con buentrato y a poner límites sin culpa."</p>
+                <div class="author">— Andrea M.</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Las sesiones virtuales son súper profesionales y cálidas. Me ayudaron a regresar a mi centro en momentos muy difíciles."</p>
+                <div class="author">— Valery R.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Final CTA -->
+    <section class="cta-banner">
+        <div class="cta-content">
+            <h2>¿Lista para regresar a tu centro?</h2>
+            <p>Escríbeme directamente por WhatsApp para coordinar una primera consulta en modalidad virtual.</p>
+            <a href="https://wa.me/5563242437?text=Hola%20Brianda,%20quisiera%20agendar%20una%20consulta" target="_blank" class="btn-whatsapp-large">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793 0-.853.448-1.２７３;.60７-１．４４６;.１５９-.１７３;.３４６-.２１７;.４６２-.２１７;.１１６ ０ .２３１ .００２ .３３２ .００７ .１０８ .００５ .２５４ -.０４１ .３９７ .３０３ .１４５ .３４６ .４９２ １．２ .５３５ １．２８７ .０４３ .０８７ .０７２ .１８８ .０１４ .３０３ -.０５８ .１１６ -.０８７ .１８８ -.１７３ .２８９l -.２６ .３０３c -.０８７ .１０１ -.１８２ .２１１ -.０７８ .３８９ .１０４ .₁₇₉ .₄₆₅ .₇₆₇ .₉₉₈ ₁₂₄₂ .₆₈₆ .₆₁₂ ₁₂₆₄ .₈₀₁ ₁⁴⁴³ ." fill="currentColor"/></svg>
+                Agendar Consulta por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Psic. Brianda Isaen Estrada Vargas — Todos los derechos reservados.</p>
+        <p class="footer-sub">Radicar Entre Mujeres | Psicoterapia & Terapia de Esquemas en Línea.</p>
+    </footer>
+
+    <!-- Botón Flotante de WhatsApp -->
+    <a href="https://wa.me/1234567890?text=Hola%20Brianda,%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n" class="whatsapp-float" target="_blank" aria-label="Contacto WhatsApp">
+        <div class="pulse-ring"></div>
+        <svg viewBox="0 0 24 24" width="32" height="32" fill="white"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793 0-.853.448-1.273.607-1.446.159-.173.346-.217.462-.217.116 0 .231.002.332.007.108.005.254-.041.397.303.145.346.492 1.2.535 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.303c-.087.101-.182.211-.078.389.104.179.465.767.998 1.242.686.612 1.264.801 1.443.889.179.088.283.073.389-.044.106-.117.452-.528.572-.708.12-.18.239-.151.403-.09.164.061 1.04.491 1.218.579.179.088.298.131.342.203.043.073.043.419-.101.824z"/></svg>
+    </a>
+
 </body>
 </html>
