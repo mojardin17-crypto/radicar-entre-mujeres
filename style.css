@@ -1,0 +1,16 @@
+body{
+        background-color: peachpuff;
+
+}
+h1{
+    color: white;    
+    align-self: center;
+}
+
+.contenedor-h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+
+}
